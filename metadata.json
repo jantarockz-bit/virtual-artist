@@ -1,0 +1,5 @@
+{
+  "name": "AI Virtual Stylist",
+  "description": "Upload a photo of a person and use AI to creatively change their outfit. Describe the new clothing item or style, and the AI will generate a new look. This application is for creative and positive styling purposes only and will not fulfill inappropriate requests.",
+  "requestFramePermissions": []
+}
