@@ -1,11 +1,11 @@
 
 import React, { useState, useCallback } from 'react';
-import { editImageWithPrompt } from './services/geminiService';
-import { fileToBase64 } from './utils/imageUtils';
+import { editImageWithPrompt } from './services/geminiService.ts';
+import { fileToBase64 } from './utils/imageUtils.ts';
 
-import ImageUploader from './components/ImageUploader';
-import ResultDisplay from './components/ResultDisplay';
-import Spinner from './components/Spinner';
+import ImageUploader from './components/ImageUploader.tsx';
+import ResultDisplay from './components/ResultDisplay.tsx';
+import Spinner from './components/Spinner.tsx';
 
 // Define a safe list of example prompts
 const examplePrompts = [
